@@ -1,0 +1,25 @@
+{
+  "name": "scss-and-jss-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelicaMDuqueC/scss-and-jss-exercises.git"
+  },
+  "author": "Angelica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelicaMDuqueC/scss-and-jss-exercises/issues"
+  },
+  "homepage": "https://github.com/AngelicaMDuqueC/scss-and-jss-exercises#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "eslint": "^5.0.1"
+  }
+}
