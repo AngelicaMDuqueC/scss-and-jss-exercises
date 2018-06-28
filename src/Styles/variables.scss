@@ -1,0 +1,60 @@
+/* COLORS*/
+
+// alert colors
+$blue-c-dark: #417505;
+$blue-c-light: #95b273;
+// warning colors
+$red-dark: #fe3927;
+$red-mid: #fe7367;
+// colors Palette
+$blue-dark: #364348;
+$blue-mid: #10506a;
+$blue-light: #356579;
+$blue-l: #77c5e4;
+$grey-dark: #d8d8d8;
+$grey-mid: #f1f1f1;
+$grey-light: #f7f7f7;
+$white: #ffffff;
+
+%h-center {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+%v-center {
+  top: 0;
+  left: 0;
+}
+
+// STYLE TEXTES
+@mixin headline($hval) {
+  @if $hval == "h1" {
+    font: 70px/70px "Roboto-Bold";
+    text-transform: uppercase;
+  }
+
+  @if $hval == "h2" {
+    font: 50px/50px "Roboto-Black";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  @if $hval == "h3" {
+    font: 16px/16px "Roboto-Regular";
+    letter-spacing: 1px;
+  }
+
+  @if $hval == "h5" {
+    font: 11px/11px "Roboto-Bold";
+    letter-spacing: 0.5px;
+  }
+  @if $hval == "h6" {
+    font: 9px/9px "Roboto-Regular";
+    letter-spacing: 0.5px;
+  }
+
+  @if $hval == "copy" {
+    font: 16px/19px "Roboto-Regular";
+    letter-spacing: 0.5px;
+  }
+}

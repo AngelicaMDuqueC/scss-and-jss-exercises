@@ -1,0 +1,40 @@
+/*
+    Typography: ROBOTO
+*/
+
+//  Regular
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/Roboto-Regular/Roboto-Regular.eot");
+  src: local("☺"),
+    url("fonts/Roboto-Regular/Roboto-Regular.woff") format("woff"),
+    url("fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype"),
+    url("fonts/Roboto-Regular/Roboto-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+//  Bold
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("fonts/Roboto-Bold/Roboto-Bold.eot");
+  src: local("☺"), url("fonts/Roboto-Bold/Roboto-Bold.woff") format("woff"),
+    url("fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype"),
+    url("fonts/Roboto-Bold/Roboto-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+//  Black
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("fonts/Roboto-Black/Roboto-Black.eot");
+  src: local("☺"), url("fonts/Roboto-Black/Roboto-Black.woff") format("woff"),
+    url("fonts/Roboto-Black/Roboto-Black.ttf") format("truetype"),
+    url("fonts/Roboto-Black/Roboto-Black.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
