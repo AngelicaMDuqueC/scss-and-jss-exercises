@@ -15,7 +15,6 @@ $grey-dark: #d8d8d8;
 $grey-mid: #f1f1f1;
 $grey-light: #f7f7f7;
 $white: #ffffff;
-
 %h-center {
   left: 0;
   right: 0;
@@ -27,33 +26,36 @@ $white: #ffffff;
   left: 0;
 }
 
+%f-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 // STYLE TEXTES
 @mixin headline($hval) {
-  @if $hval == "h1" {
+  @if $hval== "h1" {
     font: 70px/70px "Roboto-Bold";
     text-transform: uppercase;
   }
-
-  @if $hval == "h2" {
+  @if $hval== "h2" {
     font: 50px/50px "Roboto-Black";
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  @if $hval == "h3" {
+  @if $hval== "h3" {
     font: 16px/16px "Roboto-Regular";
     letter-spacing: 1px;
   }
-
-  @if $hval == "h5" {
+  @if $hval== "h5" {
     font: 11px/11px "Roboto-Bold";
     letter-spacing: 0.5px;
   }
-  @if $hval == "h6" {
+  @if $hval== "h6" {
     font: 9px/9px "Roboto-Regular";
     letter-spacing: 0.5px;
   }
-
-  @if $hval == "copy" {
+  @if $hval== "copy" {
     font: 16px/19px "Roboto-Regular";
     letter-spacing: 0.5px;
   }
